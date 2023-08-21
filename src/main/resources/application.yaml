@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: profile-matcher
+  liquibase:
+    enabled: true
+    default-schema: pm
+    liquibase-schema: pm
+

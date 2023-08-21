@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: "1"
+      author: "gabriel.vlad"
+      runOnChange: false
+      changes:
+        - sqlFile:
+            path: "db/sql/db_init.sql"
+
